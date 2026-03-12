@@ -1,0 +1,27 @@
+.profile-page {
+  text-align: center;
+  padding: 3rem;
+  animation: slideDown 0.5s ease;
+
+  @keyframes slideDown {
+    from {
+      opacity: 0;
+      transform: translateY(-30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  h1 {
+    margin-bottom: 1rem;
+  }
+
+  p {
+    color: #4a5568;
+    line-height: 1.8;
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+  }
+}
