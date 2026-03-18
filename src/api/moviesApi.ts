@@ -1,6 +1,6 @@
 import { Movie } from '../types';
 
-const API_KEY = 'a413fb35-0c16-4cbe-84a3-1ce93aa5b5ce'; // Вставь свой ключ
+const API_KEY = 'a413fb35-0c16-4cbe-84a3-1ce93aa5b5ce'; // Замените на свой API ключ
 const BASE_URL = 'https://kinopoiskapiunofficial.tech/api';
 
 export const getPopularMovies = async (): Promise<Movie[]> => {
